@@ -3,11 +3,11 @@
 csv2md - CSVファイルをマークダウンテーブルに変換するツール
 
 使用方法:
-    python csv2md.py <csvファイル名> [出力ファイル名]
+    python3 csv2md.py <csvファイル名> [出力ファイル名]
     
 例:
-    python csv2md.py data.csv
-    python csv2md.py data.csv output.md
+    python3 csv2md.py data.csv
+    python3 csv2md.py data.csv output.md
 """
 
 import csv
@@ -17,9 +17,9 @@ from pathlib import Path
 
 class CSV2MD:
     def __init__(self, input_dir=None, output_dir=None):
-        # パス設定（デフォルトは要件定義の固定パス）
-        self.input_dir = Path(input_dir) if input_dir else Path("/mnt/c/Users/sinis/Downloads")
-        self.output_dir = Path(output_dir) if output_dir else Path("/mnt/c/Users/sinis/Dropbox/Obsidian/00_inbox")
+        # パス設定（デフォルトは私専用の固定パス）
+        self.input_dir = Path(input_dir) if input_dir else Path("/mnt/c/Users/sinis/Downloads") # 適宜変更して使用してください
+        self.output_dir = Path(output_dir) if output_dir else Path("/mnt/c/Users/sinis/Dropbox/Obsidian/00_inbox") # 適宜変更して使用してください
         
     def read_csv(self, csv_filename):
         """CSVファイルを読み込む"""

@@ -36,8 +36,8 @@ python3 csv2md.py data.csv table.md
 
 ## デフォルトパス
 
-- **入力フォルダ**: `/mnt/c/Users/sinis/Downloads`
-- **出力フォルダ**: `/mnt/c/Users/sinis/Dropbox/Obsidian/00_inbox`
+- **入力フォルダ**: `/mnt/c/Users/sinis/Downloads` (適宜変更してください)
+- **出力フォルダ**: `/mnt/c/Users/sinis/Dropbox/Obsidian/00_inbox` (適宜変更してください)
 
 ## 入力CSVファイルの要件
 
@@ -76,3 +76,4 @@ python3 csv2md.py data.csv table.md
 ## ライセンス
 
 MIT License
+Copyright (c) 2025 ojizou003

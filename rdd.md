@@ -13,7 +13,7 @@ CSVファイルを読み込み、マークダウン形式のテーブルに変�
 
 ### 3.2 出力
 - マークダウン形式のテーブル（.mdファイル）
-- フォルダpath（固定）: /mnt/c/Users/sinis/Dropbox/Obsidian/00_inbox
+- フォルダパス（固定）: /mnt/c/Users/sinis/Dropbox/Obsidian/00_inbox
 
 ### 3.3 基本機能
 - CSVファイルを読み込む
