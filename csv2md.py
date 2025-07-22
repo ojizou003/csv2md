@@ -12,7 +12,6 @@ csv2md - CSVファイルをマークダウンテーブルに変換するツー�
 
 import csv
 import sys
-import os
 from pathlib import Path
 
 
